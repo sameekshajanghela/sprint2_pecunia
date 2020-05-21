@@ -17,5 +17,5 @@ public interface IAccountService {
 
 	String updateCustomerName(Account account, Customer customer);
 
-        String updateCustomerContact(Account account, Customer customer);
+    String updateCustomerContact(Account account, Customer customer);
 }

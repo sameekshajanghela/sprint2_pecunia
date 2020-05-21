@@ -27,7 +27,7 @@ export class AddAccountComponent implements OnInit {
   }
   account:Account;
   msg:string;
-  countryHasError=true;
+ // countryHasError=true;
   addAccount(form:any){
     let details=form.value;
     let branchId=details.branchId;
